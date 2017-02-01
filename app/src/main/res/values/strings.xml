@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BookListing</string>
+    <string name="default_status">status</string>
+    <string name="connection_error">No connection available.</string>
+    <string name="title1">Norwegian Wood</string>
+    <string name="author1">Haruki Murakami</string>
+    <string name="stringURL">search for "dog"</string>
+    <string name="APIkey">AIzaSyB15mtI5E0UNh_ONSCCYw-B9YcwV3w_U_8</string>
+    <string name="validJSON">Valid JSON String.</string>
+    <string name="invalidJSON">Invalid JSON String. Please search for "dog".</string>
+    <string name="empty_view_string">Type in your search into the input field above and click submit.</string>
+</resources>

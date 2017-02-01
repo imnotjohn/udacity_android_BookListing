@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<EditText
+    android:id="@+id/url_text"
+    style="@style/edit_url_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:hint="@string/stringURL" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="submit"
+    android:fontFamily="sans-serif-smallcaps"
+    android:onClick="myClickHandler" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/status_text_view"
+    style="@style/status_text_view"
+    android:text="@string/default_status" />
+
+<ListView
+    android:id="@+id/list"
+    style="@style/list_item_container"
+    android:layout_weight="9"
+    tools:context="com.example.android.booklisting.BookListing" />
+
+</LinearLayout>
